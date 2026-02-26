@@ -197,7 +197,7 @@ export default function FoodCoupon() {
             <div className="card">
               <label className="label">Select Day</label>
               <div className="grid grid-cols-3 gap-2">
-                {['day1', 'day2', 'day3'].map(day => (
+                {['day1', 'day2', 'day3', 'day4', 'day5'].map(day => (
                   <button
                     key={day}
                     onClick={() => setSelectedDay(day)}
